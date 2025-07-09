@@ -24,7 +24,7 @@ document.getElementById("preferenceForm").addEventListener("submit", async (e) =
   loaderEl.classList.remove("d-none");
 
   try {
-    const response = await fetch("https://neighborfit-5y19.onrender.com/api/match", {
+    const response = await fetch("https://neighbotfitassigement.onrender.com/api/match", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

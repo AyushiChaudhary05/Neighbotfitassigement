@@ -11,9 +11,10 @@ console.log("MONGO_URI:", process.env.MONGO_URI);
 
 
 const allowedOrigins = [
-  "https://neighborfit-i78x.vercel.app",
-  "https://neighborfit-dl7h.vercel.app"
+  "https://neighborfit-4.vercel.app",
+  "https://neighborfit-i78x.vercel.app"
 ];
+
 
 app.use(cors({
   origin: function (origin, callback) {
